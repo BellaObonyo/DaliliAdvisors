@@ -7,6 +7,23 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.contents1 {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Wrap content to the next line if it overflows */
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center align the content horizontally */
+}
+
+.content1 {
+    flex: 1; /* Distribute available space evenly among content items */
+    padding: 20px; /* Add padding for spacing */
+}
+
+h3 {
+    margin-top: 0; /* Remove default top margin for headings */
+}
+
+
 /* Smooth Scroll */
 html{
     scroll-behavior: smooth;
