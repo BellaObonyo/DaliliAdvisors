@@ -69,10 +69,6 @@ html{
 
 /* Top Navbar */
 
-.additional-content {
-    background-color:#55BA53; 
-    padding: 20px; 
-}
 
 
 .showcase .navbar-top{
@@ -654,6 +650,10 @@ html{
     cursor: pointer;
 }
 
+#flex-containerSub{
+    flex-direction: row;
+
+}
 /* Footer Section Styling  */
 .footer-bottom{
     background: #1A1B1E;
