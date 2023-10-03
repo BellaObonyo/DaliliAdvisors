@@ -650,10 +650,7 @@ html{
     cursor: pointer;
 }
 
-#flex-containerSub{
-    flex-direction: row;
 
-}
 /* Footer Section Styling  */
 .footer-bottom{
     background: #1A1B1E;
@@ -688,4 +685,19 @@ html{
     opacity: 1;
     pointer-events: auto;
     bottom: 30px;
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.showcase-content h1 {
+    animation: fadeInUp 1.5s ease;
+    animation-delay: 0.5s; /* Adjust the delay as needed */
 }
