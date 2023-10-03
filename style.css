@@ -686,7 +686,9 @@ html{
     pointer-events: auto;
     bottom: 30px;
 }
-@keyframes fadeInUp {
+
+@keyframes fadeInUp { /*animating the harnesing data section*/
+
     from {
         opacity: 0;
         transform: translateY(20px);
