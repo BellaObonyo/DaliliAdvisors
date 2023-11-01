@@ -1,5 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 
+
+
+/* For screens up to 768px wide (typical tablets) */
+@media (max-width: 768px) {
+    .wrapper {
+        padding: 0 20px;
+    }
+
+    .showcase .navbar-top {
+        padding: 0 20px;
+    }
+
+    .showcase .navbar-bottom {
+        padding: 15px 20px;
+    }
+
+    .showcase .navbar-bottom .search-form {
+        right: 5%;
+        width: 250px;
+    }
+
+    .showcase .showcase-content {
+        margin-top: 10%;
+        padding: 0 20px;
+    }
+
+    #services .items .item {
+        width: 45%;
+        margin: 10px;
+    }
+
+    #goal .goal-img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .scroll-up-btn {
+        right: 15px;
+        bottom: 20px;
+    }
+}
+
+/* For screens up to 480px wide (typical smartphones) */
+@media (max-width: 480px) {
+    .showcase .navbar-top,
+    .showcase .navbar-bottom,
+    .showcase .showcase-content {
+        padding: 0 10px;
+    }
+
+    .showcase .navbar-bottom .search-form {
+        right: 3%;
+        width: 200px;
+    }
+
+    .showcase .showcase-content h1 {
+        font-size: 40px;
+    }
+
+    #services .items .item {
+        width: 90%;
+    }
+}
+
 *{
     margin: 0;
     padding: 0;
